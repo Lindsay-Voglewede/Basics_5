@@ -1,0 +1,36 @@
+/*Calculate area and perimeter of a rectangle by inputing length and width.
+P=2l+2w
+A=lw*/
+
+////////////////////////////
+/// By Lindsay Voglewede ///
+////////////////////////////
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main()
+{
+    //Declare variables 
+    int l=0;      //Length
+    int w=0;      //width
+    int A=0;      //Area
+    int P=0;      //Perimeter
+
+    //Get values from user
+    printf("Enter width\n");
+    scanf("%i",&l);
+    printf("Enter width\n");
+    scanf("%i",&w);
+
+    //Operations
+    A=l*w;
+    P=(2*l)+(2*w);
+
+    //Output
+    printf("The Area is = %i \n",A);
+    printf("The Perimeter is = %i \n",P);
+
+    return 0;
+}
